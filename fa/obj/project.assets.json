@@ -180,28 +180,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/anton/.nuget/packages/": {}
+    "C:\\Users\\mr_fi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/anton/Desktop/NET/mod-task02-fa/fa/fa.csproj",
+      "projectUniqueName": "C:\\Users\\mr_fi\\Source\\Repos\\mod-lab02-fa-csharp\\fa\\fa.csproj",
       "projectName": "fa",
-      "projectPath": "/Users/anton/Desktop/NET/mod-task02-fa/fa/fa.csproj",
-      "packagesPath": "/Users/anton/.nuget/packages/",
-      "outputPath": "/Users/anton/Desktop/NET/mod-task02-fa/fa/obj/",
+      "projectPath": "C:\\Users\\mr_fi\\Source\\Repos\\mod-lab02-fa-csharp\\fa\\fa.csproj",
+      "packagesPath": "C:\\Users\\mr_fi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mr_fi\\Source\\Repos\\mod-lab02-fa-csharp\\fa\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/anton/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\mr_fi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "projectReferences": {}
         }
       },
@@ -213,6 +216,7 @@
     },
     "frameworks": {
       "netstandard2.0": {
+        "targetAlias": "netstandard2.0",
         "dependencies": {
           "NETStandard.Library": {
             "suppressParent": "All",
@@ -231,7 +235,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.103/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,6 +1,6 @@
+using fans;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using fans;
 namespace NET
 {
     [TestClass]
@@ -21,7 +21,7 @@ namespace NET
             FA1 fa = new FA1();
             bool? result = fa.Run(s);
             Assert.IsTrue(result == false);
-        }   
+        }
         [TestMethod]
         public void TestMethod3()
         {
@@ -29,7 +29,7 @@ namespace NET
             FA1 fa = new FA1();
             bool? result = fa.Run(s);
             Assert.IsTrue(result == false);
-        }  
+        }
         [TestMethod]
         public void TestMethod4()
         {
@@ -37,7 +37,7 @@ namespace NET
             FA1 fa = new FA1();
             bool? result = fa.Run(s);
             Assert.IsTrue(result == true);
-        }  
+        }
         [TestMethod]
         public void TestMethod5()
         {
@@ -45,7 +45,7 @@ namespace NET
             FA1 fa = new FA1();
             bool? result = fa.Run(s);
             Assert.IsTrue(result == true);
-        } 
+        }
         [TestMethod]
         public void TestMethod6()
         {
@@ -53,7 +53,7 @@ namespace NET
             FA2 fa = new FA2();
             bool? result = fa.Run(s);
             Assert.IsTrue(result == false);
-        }  
+        }
         [TestMethod]
         public void TestMethod7()
         {
@@ -61,7 +61,7 @@ namespace NET
             FA2 fa = new FA2();
             bool? result = fa.Run(s);
             Assert.IsTrue(result == false);
-        }  
+        }
         [TestMethod]
         public void TestMethod8()
         {
@@ -69,7 +69,7 @@ namespace NET
             FA2 fa = new FA2();
             bool? result = fa.Run(s);
             Assert.IsTrue(result == true);
-        }  
+        }
         [TestMethod]
         public void TestMethod9()
         {
@@ -77,7 +77,7 @@ namespace NET
             FA2 fa = new FA2();
             bool? result = fa.Run(s);
             Assert.IsTrue(result == true);
-        } 
+        }
         [TestMethod]
         public void TestMethod10()
         {
@@ -93,6 +93,6 @@ namespace NET
             FA3 fa = new FA3();
             bool? result = fa.Run(s);
             Assert.IsTrue(result == false);
-        }     
+        }
     }
 }
